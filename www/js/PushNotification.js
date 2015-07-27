@@ -72,6 +72,6 @@ if (!window.plugins.pushNotification) {
     window.plugins.pushNotification = new PushNotification();
 }
 
-// if (typeof module != 'undefined' && module.exports) {
-//   module.exports = PushNotification;
-// }
+if (typeof module != 'undefined' && module.exports) {
+    module.exports = PushNotification;
+}
